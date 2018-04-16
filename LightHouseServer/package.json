@@ -1,0 +1,20 @@
+{
+  "name": "lighthouseserver",
+  "version": "1.0.0",
+  "description": "David shcool project",
+  "main": "index.js",
+  "author": "David",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "^5.0.13",
+    "multer": "*"
+  }
+}
